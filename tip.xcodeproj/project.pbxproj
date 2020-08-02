@@ -13,6 +13,7 @@
 		3D31982624D0BAC300C9339D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D31982424D0BAC300C9339D /* Main.storyboard */; };
 		3D31982824D0BACA00C9339D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D31982724D0BACA00C9339D /* Assets.xcassets */; };
 		3D31982B24D0BACA00C9339D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D31982924D0BACA00C9339D /* LaunchScreen.storyboard */; };
+		3D31983324D194BC00C9339D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31983224D194BC00C9339D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3D31982724D0BACA00C9339D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D31982A24D0BACA00C9339D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D31982C24D0BACA00C9339D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D31983224D194BC00C9339D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3D31981E24D0BAC300C9339D /* AppDelegate.swift */,
 				3D31982024D0BAC300C9339D /* SceneDelegate.swift */,
 				3D31982224D0BAC300C9339D /* ViewController.swift */,
+				3D31983224D194BC00C9339D /* SettingsViewController.swift */,
 				3D31982424D0BAC300C9339D /* Main.storyboard */,
 				3D31982724D0BACA00C9339D /* Assets.xcassets */,
 				3D31982924D0BACA00C9339D /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				3D31982324D0BAC300C9339D /* ViewController.swift in Sources */,
 				3D31981F24D0BAC300C9339D /* AppDelegate.swift in Sources */,
 				3D31982124D0BAC300C9339D /* SceneDelegate.swift in Sources */,
+				3D31983324D194BC00C9339D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
