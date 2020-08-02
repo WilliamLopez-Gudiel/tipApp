@@ -116,7 +116,7 @@ class ViewController: UIViewController {
             UIView.animate(withDuration:0.1, animations: {
                 self.totalView.alpha = 1.0
                 self.tipControl.alpha = 1.0
-                self.totalView.center = CGPoint(x: 197.0, y: 479.5)
+                self.totalView.center = CGPoint(x: 207.0, y: 485.5)
                 self.billAmountTextField.center = CGPoint(x: 197.0, y: 199.5)
                 self.tipControl.center = CGPoint(x: 205.0, y: 332.5)
             
