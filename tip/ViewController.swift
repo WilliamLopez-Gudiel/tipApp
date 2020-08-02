@@ -102,6 +102,7 @@ class ViewController: UIViewController {
         
         tipPercentageLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        defaults.set(billAmountTextField.text, forKey: "billAmount")
         if(billAmountTextField.text == ""){
             UIView.animate(withDuration:0.1, animations: {
                 self.totalView.center = CGPoint(x: 197.0, y: 1000.5)
